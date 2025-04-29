@@ -3,7 +3,7 @@
 const apigClient = apigClientFactory.newClient();
 
 function uploadPhoto() {
-    console.log("=================== UPLOADING ====================");
+    console.log("=================== UPLOADING ====================++");
     const fileInput = document.getElementById('photoFile');
     const labelsInput = document.getElementById('customLabels');
     const file = fileInput.files[0];
